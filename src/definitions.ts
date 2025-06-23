@@ -1,3 +1,7 @@
 export interface BatteryInfoPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  getBatteryInfo(): Promise<BatteryInfoResult>;
+}
+export interface BatteryInfoResult {
+  batteryLevel: number;
+  isCharging: boolean;
 }
