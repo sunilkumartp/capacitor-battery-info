@@ -1,0 +1,6 @@
+{
+    "appId": "com.example.batteryinfoapp",
+    "appName": "BatteryInfoApp",
+    "webDir": "www",
+    "bundledWebRuntime": false
+  }

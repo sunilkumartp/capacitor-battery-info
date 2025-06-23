@@ -1,5 +1,5 @@
 export interface BatteryInfoPlugin {
-  getBatteryInfo(): Promise<BatteryInfoResult>;
+  echo(options: { value: string }): Promise<{ value: string }>;
 }
 export interface BatteryInfoResult {
   batteryLevel: number;
